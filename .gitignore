@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+.venv/
+venv/
+
+# environment-specific configuration, secrets and certificates: never commit
+config/local.env
+config/certs/
+*.pem
+*.key
+*.pfx
+.env
+.env.*
+!.env.example
+
+# generated output: reports, voice clips, raw logs, local databases
+reports/
+*.wav
+*.mp3
+*.trx
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.bak

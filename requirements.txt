@@ -1,0 +1,5 @@
+# Python 3.12+. Only the voice scenarios need these (text to English speech, then MP3 to WAV).
+edge-tts
+miniaudio
+psycopg[binary]
+websockets
